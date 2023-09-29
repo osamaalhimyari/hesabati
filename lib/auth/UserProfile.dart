@@ -44,7 +44,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
   PickAnImage pickAnImage = PickAnImage();
 
   var pickedImage;
-  var _image = File(" /defoult.jpg");
+  var _image = File("${defaultPath}/defoult.jpg");
   String imageType = '';
   late String imageNewName = '';
 
